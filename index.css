@@ -120,7 +120,8 @@
   gap: var(--gap-2xs-3);
   z-index: 1;
 }
-.ask-a-question-button {
+.ask-a-question-button,
+log-in-button {
   height: 48px;
   width: 180px;
   position: relative;
@@ -129,7 +130,8 @@
   background-color: var(--color-cadetblue);
   display: none;
 }
-.ask-a-question {
+.ask-a-question,
+log-in {
   position: relative;
   font-size: var(--font-size-base);
   font-family: var(--font-inter);
@@ -138,7 +140,7 @@
   z-index: 2;
 }
 .ask-a-question-button-parent,
-.ask-a-question-button1 {
+.log-in-button-parent {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-2xl);
   background-color: var(--color-cadetblue);
@@ -161,13 +163,13 @@
 .post-display:hover {
   background-color: var(--color-skyblue);
 }
-.ask-a-question-button1 {
+.log-in-button {
   height: 48px;
   width: 180px;
   position: relative;
   display: none;
 }
-.sign-up-log {
+.log-in {
   flex: 1;
   position: relative;
   z-index: 2;
